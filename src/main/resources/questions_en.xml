@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questions>
+    <question id="3">
+        <text>How many sides does a pentagon have?</text>
+        <answerA>5</answerA>
+        <answerB>6</answerB>
+        <answerC>7</answerC>
+        <rightanswer>A</rightanswer>
+        <explanation>Penta means 5. It is a greek prefix. Pentagon therefore means five-angled shape.</explanation>
+        <explanationimage>pentagon.jpg</explanationimage>
+    </question>
+</questions>

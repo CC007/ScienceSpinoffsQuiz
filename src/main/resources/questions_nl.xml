@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questions>
+    <question id="1">
+        <text>Op welke manier maken we dagelijks gebruik van Einsteins relativiteitstheorie?</text>
+        <answerA>Internet</answerA>
+        <answerB>GPS</answerB>
+        <answerC>SMS</answerC>
+        <rightanswer>B</rightanswer>
+        <explanation>Het juiste antwoord is: GPS. We maken dagelijks gebruik van GPS, bijvoorbeeld met het navigatiesysteem in de auto, maar ook bij het versturen van een facebookberichtje, of het gebruik van Tinder. Naar mate een klok meer de snelheid van het licht benaderd, loopt hij steeds langzamer. Satelieten, waarop GPS is gebaseerd, bewegen dusdanig snel, dat de afwijking significant zou worden. Zonder rekening te houden met de relativiteitstheorie van Einstein zou er een afwijking van ongeveer 10km per dag ontstaan!</explanation>
+        <explanationimage>pluto-not-a-planet.png</explanationimage>
+    </question>
+
+    <question id="2">
+        <text>Welke ontwikkeling wordt gebaseerd op de gekko?</text>
+        <answerA>Elektronische camouflage</answerA>
+        <answerB>Een nieuw soort muggenverdelger</answerB>
+        <answerC>Een grijpmechanisme om ruimteafval op te ruimen</answerC>
+        <rightanswer>C</rightanswer>
+        <explanation>Het juiste antwoord is: een grijpmechanisme om ruimteafval op te ruimen. Gekko’s zijn beroemd om hun vermogen ondersteboven aan gladde oppervlakten te kunnen hangen. Dit kunnen ze zelfs op glas! Dit kunnen ze door ontzettend kleine haartjes aan het pootjes, waardoor er op moleculair niveau een kracht ontstaat: de naar een Nederlandse fysicus vernoemde vanderwaalskracht.</explanation>
+        <explanationimage>pluto-not-a-planet.png</explanationimage>
+    </question>
+
+    <question id="3">
+        <text>Waarvoor werken deeltjesfysici samen met historici?</text>
+        <answerA>Het ontcijferen van oude papyrusrollen</answerA>
+        <answerB>Het opstellen van een geschiedenis van de deeltjesfysica</answerB>
+        <answerC>Het opstellen van een geschiedenis van de deeltjesversneller</answerC>
+        <rightanswer>A</rightanswer>
+        <explanation>Het juiste antwoord is: het ontcijferen van oude papyrusrollen. Een oude papyrusrol beschreven door Archimedes (287 v.Chr. – 212 v.Chr.) is in 1998 gekocht voor 2 miljoen dollar. Op dit moment wordt hij ontcijferd met behulp van deeltjesfysica; de stralen zorgen ervoor dat het metaal in de inkt van Archimedes oplicht.</explanation>
+        <explanationimage>pluto-not-a-planet.png</explanationimage>
+    </question>
+
+    <question id="4">
+        <text>Waar is het Internet uitgevonden?</text>
+        <answerA>Massachusetts Institute of Technology (MIT)</answerA>
+        <answerB>CERN</answerB>
+        <answerC>Het Amerikaanse leger</answerC>
+        <rightanswer>B</rightanswer>
+        <explanation>Het juiste antwoord is: CERN. Vanwege de gigantische hoeveelheid data die gedeeld moet worden bij CERN, was het nodig iets nieuws te ontwikkelen. In 1989 ontwikkelde de Britse wetenschapper Tim Berners-Lee daarom het World Wide Web. Een paar jaar later, op Koninginnedag 1993, werd de techniek achter het Internet openbaar gemaakt.</explanation>
+        <explanationimage>pluto-not-a-planet.png</explanationimage>
+    </question>
+
+    <question id="5">
+        <text>Wat is NIET een toepassing voor de Oculus Rift (virtual reality-bril)?</text>
+        <answerA>Van hoogtevrees af komen</answerA>
+        <answerB>Therapie voor claustrofobie</answerB>
+        <answerC>Een muziekinstrument leren bespelen</answerC>
+        <rightanswer>C</rightanswer>
+        <explanation>Het juiste antwoord is: een muziekinstrument leren bespelen. Het Amerikaanse bedrijf PsyTech heeft het Anxiety Management Virtual Reality Platform (AMVR) ontwikkeld, waarmee mensen geleidelijk aan behandeld kunnen worden voor diverse fobieën en angststoornissen, zoals pleinvrees, angst voor spinnen, hoogtevrees en claustrofobie.</explanation>
+        <explanationimage>pluto-not-a-planet.png</explanationimage>
+    </question>
+
+    <question id="6">
+        <text>Welke van de volgende toepassingen is gebaseerd op een spin-off van het onderzoek in CERN?</text>
+        <answerA>LED-lamp</answerA>
+        <answerB>Bluray</answerB>
+        <answerC>MRI-scanner</answerC>
+        <rightanswer>C</rightanswer>
+        <explanation>Het juiste antwoord is: MRI-scanner. Een MRI-scanner is gebaseerd op het ‘omklappen’ van minuscule magneetjes, op atomair niveau. Deze ‘aangeslagen’ atomen vallen na een tijdje weer terug in hun grondtoestand, onder het uitzenden van een lichtdeeltje. Die kan opgevangen worden, waardoor bekeken kan worden hoe de interne structuur van ons lichaam is. Dit ‘omklappen’ van de atomen, gebeurt met behulp van extreem sterke magneten: de supergeleidende magneten. Het juiste type daarvan is ontwikkeld in CERN, om ervoor te kunnen zorgen dat de deeltjes tot de juiste snelheid konden worden geaccelereerd.</explanation>
+        <explanationimage>pluto-not-a-planet.png</explanationimage>
+    </question>
+
+    <question id="7">
+        <text>Hier op de universiteit kan men Kunstmatige Intelligentie (KI) studeren. Wat is een veelgehoorde toepassing van de vindingen binnen dit veld?</text>
+        <answerA>Zelfrijdende auto's</answerA>
+        <answerB>Drones</answerB>
+        <answerC>TomTom</answerC>
+        <rightanswer>A</rightanswer>
+        <explanation>Het juiste antwoord is: zelfrijdende auto’s. Steeds vaker horen we erover in het nieuws. Onze Minister van Infrastructuur en Milieu, Mw. Schultz van Haegen, heeft al een aantal proefritjes achter de rug. Kunstmatige Intelligentie wordt vaak gedefinieerd als een zekere mate van probleemoplossend vermogen. Deze auto’s moeten natuurlijk beslissingen nemen: er snel voor langs, of toch nog even wachten? Links of rechts, rekeninghoudend met file-informatie? Maar nu heeft de bestuurder écht haast! Bij al deze beslissingen komt een vorm van kunstmatige intelligentie kijken, en zouden dus onmogelijk zijn zonder de doorbraken in dit veld.</explanation>
+        <explanationimage>pluto-not-a-planet.png</explanationimage>
+    </question>
+
+    <question id="8">
+        <text>40 miljard cellen, gekweekt in een laboratorium in Maastricht, op basis van stamcellenonderzoek:</text>
+        <answerA>Een schaap</answerA>
+        <answerB>Een beetje gras</answerB>
+        <answerC>Een hamburger</answerC>
+        <rightanswer>C</rightanswer>
+        <explanation>Het juiste antwoord is: een hamburger. Op 5 augustus 2013 is in Londen het eerste stukje vlees gebakken dat gekweekt is in een laboratorium. Het is gekweekt uit stamcellen van een koe, en het duurde drie maanden om ze op te kweken tot een stuk vlees. Reacties? "De bite van de hamburger lijkt enigszins op de textuur van vlees, al is het iets zachter" "Het vlees is wel minder sappig" "Er zit geen vet in. Je proeft zeker verschil met een gewone hamburger." Het ging dan ook om een zogenaamd ‘proof of concept’, waarbij de wetenschapper, de Nederlander Mark Post, wilde bewijzen dat het op termijn mogelijk is kunstmatig vlees te eten.</explanation>
+        <explanationimage>pluto-not-a-planet.png</explanationimage>
+    </question>
+
+    <question id="9">
+        <text>Welk wetenschapsgebied heeft ook profijt van het onderzoek in CERN?</text>
+        <answerA>Geneeskunde</answerA>
+        <answerB>Psychologie</answerB>
+        <answerC>Taalkunde</answerC>
+        <rightanswer>A</rightanswer>
+        <explanation>Het juiste antwoord is: geneeskunde. Een spin-offbedrijf van CERN is ADAM (Toepassing van Detectoren en Versnellers op Geneeskunde). Dit bedrijf heeft samen met CERN de zogenaamde protonentherapie ontwikkeld, ofwel het bestralen van tumoren met protonen in plaats van met fotonen. Protonen zijn positief geladen deeltjes (partikels), die hun maximale dosis pas afgeven bij het bereiken van een bepaalde indringdiepte. Daarna komen de protonen tot stilstand en stopt de straling. Hierdoor ontstaat een soort stralingspiek, Dit heeft als voordeel dat het weefsel rondom een tumor minder beschadigd raakt. Zoals het nu staat komen er vier van zulke ‘protonencentra’ in Nederland, waaronder in Groningen. Naar verwachting zijn ze in 2017 operabel.</explanation>
+        <explanationimage>pluto-not-a-planet.png</explanationimage>
+    </question>
+
+    <question id="10">
+        <text>Welke bedrijfstak heeft nog meer profijt van het onderzoek in CERN?</text>
+        <answerA>Landbouw</answerA>
+        <answerB>Commenciële luchtvaart</answerB>
+        <answerC>Energie- en waterleidingbedrijven</answerC>
+        <rightanswer>B</rightanswer>
+        <explanation>Het juiste antwoord is: commerciële luchtvaart. Er werkt een groot aantal informatici bij CERN, om de computersystemen te creëren en te onthouden die nodig zijn voor de verwerking van de grote hoeveelheden data die verzameld worden. Een programma dat is gemaakt om berekeningen te kunnen maken voor alles wat te maken heeft met het transport van deeltjes en de interactie met materie, is FLUKA. Deze weinig pakkende naam is tegenwoordig onmisbaar in de commerciële luchtvaart, omdat men met dit stuk software berekent hoeveel straling de passagiers en bemanning oplopen tijdens een vlucht.</explanation>
+        <explanationimage>pluto-not-a-planet.png</explanationimage>
+    </question>
+
+    <question id="11">
+        <text>Wanneer begon men ongeveer met make-up dragen?</text>
+        <answerA>In de Middeleeuwen</answerA>
+        <answerB>In de tijd van Farao Cleopatra (69 v.Chr. – 30 v.Chr)</answerB>
+        <answerC>De Neanderthalers droegen al make-up (verdween uit Europa 33.000 jaar geleden)</answerC>
+        <rightanswer>C</rightanswer>
+        <explanation>Het juiste antwoord is: de Neanderthalers droegen al make-up. Aanvankelijk werd gedacht dat onze voorlopers “een stelletje halve garen waren”. Toen begin 2010 overtuigend bewijs werd gevonden dat ze bodypaint droegen, bleek dat ze wel degelijk in staat waren tot symbolisch denken. Het bewijs werd opgegraven in de Zuid-Spaanse regio Murcia: schelpen waarin de make-up werd bewaard of vermengd.</explanation>
+        <explanationimage>pluto-not-a-planet.png</explanationimage>
+    </question>
+</questions>
