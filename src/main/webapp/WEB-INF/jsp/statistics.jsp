@@ -22,11 +22,11 @@
                 <!-- Statistics -->
                 <div id="globalstatistics">
                     <div>
-                        <b>4</b> participants of which:<br />
-                        <b>50/50</b>% male/female<br />
-                        <b>50/50</b>% below/above 30<br />
-                        <b>38</b> questions answered<br />
-                        <b>17</b> answered correctly<br />
+                        <b>${participantsCount}</b> participants of which:<br />
+                        <b>${malePercentage}/${femalePercentage}</b>% male/female<br />
+                        <b>${youngerPercentage}/${olderPercentage}</b>% below/above 30<br />
+                        <b>${answeredCount}</b> questions answered<br />
+                        <b>${rightlyAnsweredCount}</b> answered correctly<br />
                     </div>
                 </div>
 
@@ -35,19 +35,19 @@
                     <h2>Gender</h2>
                     <div class="flexbox hor graphbars">
                         <div>
-                            <div style="height: calc(100% - 66%)">
+                            <div style="height: calc(100% - ${gender1}%)">
 
                             </div>
-                            <div class="bar" style="height: 66%">
-                                66%
+                            <div class="bar" style="height: ${gender1}%">
+                                ${gender1}%
                             </div>
                         </div>
                         <div>
-                            <div style="height: calc(100% - 25%)">
+                            <div style="height: calc(100% - ${gender2}%)">
 
                             </div>
-                            <div class="bar" style="height: 25%">
-                                25%
+                            <div class="bar" style="height: ${gender2}%">
+                                ${gender2}%
                             </div>
                         </div>
                     </div>
@@ -66,19 +66,19 @@
                     <h2>Age group</h2>
                     <div class="flexbox hor graphbars">
                         <div>
-                            <div style="height: calc(100% - 66%)">
+                            <div style="height: calc(100% - ${ageGroup1}%)">
 
                             </div>
-                            <div class="bar" style="height: 66%">
-                                66%
+                            <div class="bar" style="height: ${ageGroup1}%">
+                                ${ageGroup1}%
                             </div>
                         </div>
                         <div>
-                            <div style="height: calc(100% - 25%)">
+                            <div style="height: calc(100% - ${ageGroup2}%)">
 
                             </div>
-                            <div class="bar" style="height: 25%">
-                                25%
+                            <div class="bar" style="height: ${ageGroup2}%">
+                                ${ageGroup2}%
                             </div>
                         </div>
                     </div>
@@ -100,91 +100,91 @@
                     <h2>Score per question</h2>
                     <div class="flexbox hor graphbars">
                         <div>
-                            <div style="height: calc(100% - 66%)">
+                            <div style="height: calc(100% - ${question1}%)">
 
                             </div>
-                            <div class="bar" style="height: 66%">
-                                66%
+                            <div class="bar" style="height: ${question1}%">
+                                ${question1}%
                             </div>
                         </div>
                         <div>
-                            <div style="height: calc(100% - 25%)">
+                            <div style="height: calc(100% - ${question2}%)">
 
                             </div>
-                            <div class="bar" style="height: 25%">
-                                25%
+                            <div class="bar" style="height: ${question2}%">
+                                ${question2}%
                             </div>
                         </div>
                         <div>
-                            <div style="height: calc(100% - 66%)">
+                            <div style="height: calc(100% - ${question3}%)">
 
                             </div>
-                            <div class="bar" style="height: 66%">
-                                66%
+                            <div class="bar" style="height: ${question3}%">
+                                ${question3}%
                             </div>
                         </div>
                         <div>
-                            <div style="height: calc(100% - 25%)">
+                            <div style="height: calc(100% - ${question4}%)">
 
                             </div>
-                            <div class="bar" style="height: 25%">
-                                25%
+                            <div class="bar" style="height: ${question4}%">
+                                ${question4}%
                             </div>
                         </div>
                         <div>
-                            <div style="height: calc(100% - 66%)">
+                            <div style="height: calc(100% - ${question5}%)">
 
                             </div>
-                            <div class="bar" style="height: 66%">
-                                66%
+                            <div class="bar" style="height: ${question5}%">
+                                ${question5}%
                             </div>
                         </div>
                         <div>
-                            <div style="height: calc(100% - 25%)">
+                            <div style="height: calc(100% - ${question6}%)">
 
                             </div>
-                            <div class="bar" style="height: 25%">
-                                25%
+                            <div class="bar" style="height: ${question6}%">
+                                ${question6}%
                             </div>
                         </div>
                         <div>
-                            <div style="height: calc(100% - 66%)">
+                            <div style="height: calc(100% - ${question7}%)">
 
                             </div>
-                            <div class="bar" style="height: 66%">
-                                66%
+                            <div class="bar" style="height: ${question7}%">
+                                ${question7}%
                             </div>
                         </div>
                         <div>
-                            <div style="height: calc(100% - 25%)">
+                            <div style="height: calc(100% - ${question8}%)">
 
                             </div>
-                            <div class="bar" style="height: 25%">
-                                25%
+                            <div class="bar" style="height: ${question8}%">
+                                ${question8}%
                             </div>
                         </div>
                         <div>
-                            <div style="height: calc(100% - 66%)">
+                            <div style="height: calc(100% - ${question9}%)">
 
                             </div>
-                            <div class="bar" style="height: 66%">
-                                66%
+                            <div class="bar" style="height: ${question9}%">
+                                ${question9}%
                             </div>
                         </div>
                         <div>
-                            <div style="height: calc(100% - 25%)">
+                            <div style="height: calc(100% - ${question10}%)">
 
                             </div>
-                            <div class="bar" style="height: 25%">
-                                25%
+                            <div class="bar" style="height: ${question10}%">
+                                ${question10}%
                             </div>
                         </div>
                         <div>
-                            <div style="height: calc(100% - 66%)">
+                            <div style="height: calc(100% - ${question11}%)">
 
                             </div>
-                            <div class="bar" style="height: 66%">
-                                66%
+                            <div class="bar" style="height: ${question11}%">
+                                ${question11}%
                             </div>
                         </div>
                     </div>

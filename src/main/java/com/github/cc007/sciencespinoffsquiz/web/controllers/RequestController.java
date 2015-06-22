@@ -27,6 +27,7 @@ import com.github.cc007.sciencespinoffsquiz.language.LanguagesController;
 import com.github.cc007.sciencespinoffsquiz.quiz.model.Answer;
 import com.github.cc007.sciencespinoffsquiz.quiz.model.Question;
 import com.github.cc007.sciencespinoffsquiz.quiz.model.QuestionPool;
+import com.github.cc007.sciencespinoffsquiz.quiz.storage.DatabaseRetrieval;
 import com.github.cc007.sciencespinoffsquiz.quiz.storage.DatabaseStorage;
 import com.github.cc007.sciencespinoffsquiz.quiz.storage.GameStatisticsStorage;
 import com.github.cc007.sciencespinoffsquiz.util.IntegerChecker;
@@ -49,13 +50,30 @@ public class RequestController {
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String index(ModelMap map) {
-        map.put("content", "Hello Spring 4 Web MVC!");
+        map.put("quizredirect", "<meta http-equiv=\"refresh\" content=\"0;url=/ScienceSpinoffsQuiz/quiz\" />");
         return "index";
     }
 
     @RequestMapping(value = "/statistics", method = RequestMethod.GET)
     public String statistics(ModelMap map) {
-        map.put("content", "Some scoreboard");
+        DatabaseRetrieval dr = new DatabaseRetrieval();
+        map.put("participantsCount", dr.getParticipantCount() + "");
+        map.put("malePercentage", dr.getMalePercentage() + "");
+        map.put("femalePercentage", dr.getFemalePercentage() + "");
+        map.put("youngerPercentage", dr.getYoungerPercentage() + "");
+        map.put("olderPercentage", dr.getOlderPercentage() + "");
+        map.put("answeredCount", dr.getAnsweredCount() + "");
+        map.put("rightlyAnsweredCount", dr.getRightlyAnsweredCount() + "");
+        List<Integer> genderStatistics = dr.getGenderStatistics();
+        List<Integer> ageGroupStatistics = dr.getAgeGroupStatistics();
+        List<Integer> questionStatistics = dr.getQuestionStatistics();
+        for (int i = 0; i < 2; i++) {
+            map.put("gender" + (i+1),genderStatistics.get(i));
+            map.put("ageGroup" + (i+1),ageGroupStatistics.get(i));
+        }
+        for (int i = 0; i < 11; i++) {
+            map.put("question" + (i+1),questionStatistics.get(i));
+        }
         return "statistics";
     }
 
