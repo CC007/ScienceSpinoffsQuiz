@@ -16,15 +16,15 @@
     </head>
     <body>
         <h1>Science spin-offs: the technology we use</h1>
-        <h2>Are you younger or older than 30 years old?</h2>
+        <h2>${ageGroupQuestion}</h2>
         <form name="answerform" id="answerform" class="answercontainer" method="get">
             <button class="answer" type="submit" name="ageGroup" value="younger">
-                Younger than 30 years old
+                ${younger}
             </button>
             <br/>
             <br/>
             <button class="answer" type="submit" name="ageGroup" value="older" >
-                Older than 30 years old
+                ${older}
             </button>
             <input type="hidden" name="language" value="${language}" />
             <input type="hidden" name="gender" value="${gender}" />

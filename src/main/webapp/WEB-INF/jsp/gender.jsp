@@ -16,15 +16,15 @@
     </head>
     <body>
         <h1>Science spin-offs: the technology we use</h1>
-        <h2>Are you male or female?</h2>
+        <h2>${genderQuestion}</h2>
         <form name="answerform" id="answerform" class="answercontainer" method="get">
             <button class="answer" type="submit" name="gender" value="male">
-                Male
+                ${male}
             </button>
             <br/>
             <br/>
             <button class="answer" type="submit" name="gender" value="female" >
-                Female
+                ${female}
             </button>
             <input type="hidden" name="language" value="${language}" />
         </form>

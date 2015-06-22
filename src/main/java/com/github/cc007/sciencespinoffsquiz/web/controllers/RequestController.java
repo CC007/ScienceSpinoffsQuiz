@@ -99,10 +99,16 @@ public class RequestController {
             @ModelAttribute("language") String language,
             @ModelAttribute("gender") String gender,
             @ModelAttribute("ageGroup") String ageGroup,
+            @ModelAttribute("restart") String restart,
             ModelMap map) {
         long newRandom;
         GameStatisticsStorage gss;
+        LanguagesController lc;
         System.out.println("Incoming request:");
+        if("restart".equals(restart)){
+            System.out.println(" Restart quiz");
+            return "index";
+        }
         if (!"".equals(userId) && IntegerChecker.isInteger(userId)) {
             gss = new DatabaseStorage(Integer.parseInt(userId));
             System.out.println(" UserId is set.");
@@ -111,15 +117,21 @@ public class RequestController {
             if ("".equals(language)) {
                 return "index";
             }
-
+            lc = new LanguagesController(language);
             if ("".equals(gender)) {
                 map.put("language", language);
+                map.put("genderQuestion", lc.getText("GenderQuestion"));
+                map.put("male", lc.getText("Male"));
+                map.put("female", lc.getText("Female"));
                 return "gender";
             }
 
             if ("".equals(ageGroup)) {
                 map.put("language", language);
                 map.put("gender", gender);
+                map.put("ageGroupQuestion", lc.getText("AgeGroupQuestion"));
+                map.put("younger", lc.getText("Younger"));
+                map.put("older", lc.getText("Older"));
                 return "agegroup";
             }
 
@@ -142,7 +154,6 @@ public class RequestController {
 
         System.out.println(" Retrieving question...");
         String xmlFileName = "questions_en.xml";
-        LanguagesController lc;
         if (!"".equals(language)) {
             lc = new LanguagesController(language);
             switch (language.toLowerCase()) {
@@ -193,6 +204,7 @@ public class RequestController {
             map.put("language", language);
             map.put("imgName", q.getExplanationImage());
             map.put("nextQuestion", lc.getText("NextQuestion"));
+            map.put("restartQuiz", lc.getText("RestartQuiz"));
             return "explanation";
         }
 

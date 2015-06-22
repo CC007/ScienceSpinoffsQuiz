@@ -50,6 +50,12 @@ public class LanguagesController {
             //PropertiesMessageSource.fromFile(new File(this.getClass().getClassLoader().getResource("language_en.properties").toString()));
         //PropertiesMessageSource.fromFile(new File(this.getClass().getClassLoader().getResource("language_nl.properties").toString()));
         MessageSource sourceEN = MapMessageSource.newBuilder()
+                .put("GenderQuestion", "Are you male or female?")
+                .put("Male", "Male")
+                .put("Female", "Female")
+                .put("AgeGroupQuestion", "Are you younger or older than 30 years old?")
+                .put("Younger", "Younger than 30 years old")
+                .put("Older", "Older than 30 years old")
                 .put("RightAnswer", "Correct! The answer was indeed ")
                 .put("WrongAnswer", "Wrong! The answer is ")
                 .put("NextQuestion", "Next question")
@@ -58,6 +64,12 @@ public class LanguagesController {
                 .build();
 
         MessageSource sourceNL = MapMessageSource.newBuilder()
+                .put("GenderQuestion", "Bent u een man of een vrouw?")
+                .put("Male", "Man")
+                .put("Female", "Vrouw")
+                .put("AgeGroupQuestion", "Bent u jonger of ouder dan 30 jaar?")
+                .put("Younger", "Jonger dan 30 jaar")
+                .put("Older", "Ouder dan 30 jaar")
                 .put("RightAnswer", "Goed!<br /> Het antwoord was inderdaad ")
                 .put("WrongAnswer", "Fout!<br /> Het goede antwoord is  ")
                 .put("NextQuestion", "Volgende vraag")

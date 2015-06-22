@@ -38,6 +38,11 @@
             <button class="answer" type="submit" >
                 ${nextQuestion}
             </button>
+            <br />
+            <br />
+            <button class="answer" type="submit" name="restart" value="restart">
+                ${restartQuiz}
+            </button>
         </form>
     </body>
 </html>
