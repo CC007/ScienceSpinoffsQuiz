@@ -7,7 +7,7 @@
         <answerC>Text message</answerC>
         <rightanswer>B</rightanswer>
         <explanation>We use GPS daily, for example using the navigation system in the car, but also by sending a facebook message, or using Tinder. The more a clock approaches the speed of light, the slower it goes. Satellites, on which the technology of GPS is based, move very fast. To such an extent, that the deviation would be significat. Without taking into account Einsteins theory of relativity, the deviation would grow about 10km a day!</explanation>
-        <explanationimage>pluto-not-a-planet.png</explanationimage>
+        <explanationimage>1 Einstein.jpg</explanationimage>
     </question>
     <question id="2">
         <text>Which new development is based on the gecko?</text>
@@ -16,7 +16,7 @@
         <answerC>A gripping mechanism to clean up space debris</answerC>
         <rightanswer>C</rightanswer>
         <explanation>Gecko’s are famous for their ability to walk on slipperty surfaces, upside-down. They can even it on glass! They are able to do this, because of extremely small hairs on their paws. Because of these hairs, a force is created on a molecular level: the van der Waals force, named after the Dutch physicist Johannes Diderik van der Waals (1837 – 1923).</explanation>
-        <explanationimage>pluto-not-a-planet.png</explanationimage>
+        <explanationimage>2 Gekko.jpg</explanationimage>
     </question>
     <question id="3">
         <text>Why do particle physicists work together with historians?</text>
@@ -25,7 +25,7 @@
         <answerC>To write a history of the particle accelerator</answerC>
         <rightanswer>A</rightanswer>
         <explanation>An old scroll written by Archimedes (287 BC – 212 BC) was sold in 1998, for a staggering 2 million dollars. At a certain time in history, a monk re-used this scroll. Right now, it is being decyphered using particle physics; the beams light up the metal in the ink used by Archimedes.</explanation>
-        <explanationimage>pluto-not-a-planet.png</explanationimage>
+        <explanationimage>3 Archimedes.jpg</explanationimage>
     </question>
     <question id="4">
         <text>Where was the Internet invented?</text>
@@ -34,7 +34,7 @@
         <answerC>The American army</answerC>
         <rightanswer>B</rightanswer>
         <explanation>Because of the humongous amounts of data that need to be shared at CERN, it was necessary to build a new system. Therefore, the British scientist Tim Berners-Lee developed the World Wide Web. He did so in 1989, and a few years later, on the 30th of April 1993, the technology behind it was made public knowledge.</explanation>
-        <explanationimage>pluto-not-a-planet.png</explanationimage>
+        <explanationimage>4 Tim Berners-Lee.jpg</explanationimage>
     </question>
     <question id="5">
         <text>What is NOT an application of the Oculus Rift (virtual reality glasses)?</text>
@@ -43,7 +43,7 @@
         <answerC>To learn to play a musical instrument</answerC>
         <rightanswer>C</rightanswer>
         <explanation>The American company PsyTech has developed the Anxiety Management Virtual Reality Platform (AMVR), with which people can be treated gradually for a range of phobias and anxiety disorders. Examples are agoraphobia, fear of spiders, fear of hights and claustrophobia.</explanation>
-        <explanationimage>pluto-not-a-planet.png</explanationimage>
+        <explanationimage>5 Oculus Rift.jpg</explanationimage>
     </question>
     <question id="6">
         <text>Which of the following applications is based on a spin-off of the research in CERN?</text>
@@ -52,7 +52,7 @@
         <answerC>MRI-scanner</answerC>
         <rightanswer>C</rightanswer>
         <explanation>An MRI-scanner is based on the ‘flipping’ of tiny magnets, on an atomic level. These ‘activated’ atoms fall back into their natural state, emitting a photon. This light particle can be measured, revealing the internal structure of the human body. The ‘flipping’ of the atoms is done using extremely strong magnets: the super conducting magnets. The right type of those was developed at CERN.</explanation>
-        <explanationimage>pluto-not-a-planet.png</explanationimage>
+        <explanationimage>6 MRI.jpg</explanationimage>
     </question>
     <question id="7">
         <text>One can study Artificial Intelligence (AI) here at the University of Groningen. What is an often heard of application of the findings in this field of study?</text>
@@ -61,7 +61,7 @@
         <answerC>TomTom</answerC>
         <rightanswer>A</rightanswer>
         <explanation>A subject appearing increasingly often in the news. The Dutch Minister of Infrastructure and Environment, Schultz van Haegen, has already test driven a few times. AI is often defined as a certain capacity of problem solving skills. These cars of course need to make decisions: some extra gas, or wait for this car to pass? Left or right, taking into account the latest information on traffic jams? But now the passenger really is in a rush! AI is involved in all these decisions, so without this field of study these developments would be unthinkable.</explanation>
-        <explanationimage>pluto-not-a-planet.png</explanationimage>
+        <explanationimage>7 Schultz in auto.jpg</explanationimage>
     </question>
     <question id="8">
         <text>40 billion cells, grown in a laboratory in Maastricht, the Netherlands, based upon findings in stem cell research:</text>
@@ -70,7 +70,7 @@
         <answerC>A hamburger</answerC>
         <rightanswer>C</rightanswer>
         <explanation>London, 5th of August 2013. The first hamburger was fried, which had been grown in a laboratory. It had been grown out of stem cells of a cow and it took three months to grow into the piece of meat. Reactions? “The bite of the burger somewhat resembles that of the texture of meat, though it is a bit softer” “The meat is less juicy” “There is no fat. You can surely taste the difference between this burger and an ordinary one.” The goal of this test was a so-called ‘proof of concept’, with which the scientist, the Dutch Mark Post, wanted to prove that in time it will be possible to eat artificial meat.</explanation>
-        <explanationimage>pluto-not-a-planet.png</explanationimage>
+        <explanationimage>8 Gekweekt vlees.jpg</explanationimage>
     </question>
     <question id="9">
         <text>Which area of expertise also benefits of the research done at CERN?</text>
@@ -79,7 +79,7 @@
         <answerC>Linguistics</answerC>
         <rightanswer>A</rightanswer>
         <explanation>A spin-off company for CERN is ADAM (Applications of Detectors and Accelerators to Medicine). This company, together with CERN, has developed the so-called proton therapy. This is a new way to irradiate tumors: with protons instead of photons. Protons are positively charged particles, that don’t give off their maximum dose until reaching a certain depth in the body. After this, the radiation stops. The advantage over using photons is that using protons, less tissue around the tumor gets damaged. Currently four of these ‘proton centres’ are planned to be built in the Netherlands, one of which in Groningen. They are expected to be operable in 2017.</explanation>
-        <explanationimage>pluto-not-a-planet.png</explanationimage>
+        <explanationimage>9 Protonentherapie.jpg</explanationimage>
     </question>
     <question id="10">
         <text>Which industry profits as well of the research done at CERN?</text>
@@ -88,7 +88,7 @@
         <answerC>Energy and water companies</answerC>
         <rightanswer>B</rightanswer>
         <explanation>Many computer scientists are employed by CERN, to create and maintain the computer systems necessary for the processing of the huge amounts of data that are collected. Also, a programme was needed to be able to do calculations about anything that has to do with the transport of particles and the interaction with matter. The result was FLUKA, which is currently used by commercial airlines, in order to calculate the amount of radiation received by the crew and passengers while flying.</explanation>
-        <explanationimage>pluto-not-a-planet.png</explanationimage>
+        <explanationimage>10 Verkeerstoren.jpg</explanationimage>
     </question>
     <question id="11">
         <text>What is the basis of what is already called the ‘miracle material’ of the future?</text>
@@ -97,7 +97,7 @@
         <answerC>Speedo's</answerC>
         <rightanswer>A</rightanswer>
         <explanation>Graphene is called the new ‘miracle material’. It consists solely of carbon, just like graphite: the basis of a pencil. Graphene, however, is one layer of carbon atoms, and appears to have all sorts of special features. The production process isn’t optimised yet, but in the future the material may lead to more efficient solar cells, quicker Internet, and better rechargeable batteries. Since the material is stronger than iron, and only one atom thick, another application self-evident: an improved condom.</explanation>
-        <explanationimage>pluto-not-a-planet.png</explanationimage>
+        <explanationimage>11 Grafeen.jpg</explanationimage>
     </question>
 
 

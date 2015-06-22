@@ -61,7 +61,14 @@ public class RequestController {
 
     @RequestMapping(value = "/explanation", method = RequestMethod.GET)
     public String explanation(ModelMap map) {
-        map.put("content", "Here I need to explain things");
+        map.put("statisticsredirect", "<meta http-equiv=\"refresh\" content=\"15;url=/ScienceSpinoffsQuiz/statistics\" />");
+        map.put("statisticshide", " style=\"border:none;background-color:inherit;\"");
+        QuestionPool qp = new QuestionPool("questions_en.xml");
+        List<Question> questions = qp.getQuestions();
+        Collections.shuffle(questions, new Random(System.currentTimeMillis()));
+        Question q = questions.get(0);
+        map.put("imgName", q.getExplanationImage());
+        map.put("explanation", q.getExplanation());
         return "explanation";
     }
 
@@ -103,7 +110,7 @@ public class RequestController {
             gss.setGender(gender);
             gss.setAgeGroup(ageGroup);
             userId = gss.getUserId() + "";
-            
+
             gss.saveStatistics();
 
         }
@@ -154,7 +161,7 @@ public class RequestController {
             System.out.println("Store result in database");
             gss.setScore(q.getId(), right);
             gss.saveStatistics();
-            
+
             System.out.println(" Prepare explanation webview");
             map.put("explanation", q.getExplanation());
             if (right) {

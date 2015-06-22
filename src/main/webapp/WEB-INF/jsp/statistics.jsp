@@ -11,6 +11,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Explanation</title>
+        <meta http-equiv="refresh" content="10;url=/ScienceSpinoffsQuiz/explanation" />
         <link rel="stylesheet" type="text/css" href="${cp}/resources/css/statisticsstyle.css" />
         <script src="${cp}/resources/js/script.js"></script>
     </head>
@@ -21,11 +22,11 @@
                 <!-- Statistics -->
                 <div id="globalstatistics">
                     <div>
-                        <b>2</b> participants<br />
-                        <b>9</b> questions answered<br />
-                        <b>6</b> answered correctly<br />
-                        <b>50/50</b>% male vs female<br />
-                        <b>50/50</b>% below vs above 30<br />
+                        <b>4</b> participants of which:<br />
+                        <b>50/50</b>% male/female<br />
+                        <b>50/50</b>% below/above 30<br />
+                        <b>38</b> questions answered<br />
+                        <b>17</b> answered correctly<br />
                     </div>
                 </div>
 

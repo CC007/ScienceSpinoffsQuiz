@@ -11,14 +11,15 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Explanation</title>
+        ${statisticsredirect}
         <link rel="stylesheet" type="text/css" href="${cp}/resources/css/style.css" />
         <script src="${cp}/resources/js/script.js"></script>
     </head>
     <body>
         <h1>Science spin-offs: the technology we use</h1>
         <div class="halfcontainer">
-            <div class="half ${hide}">
-                <div class="questionText">${questionText}</div>
+            <div class="half">
+                <div class="questionText"${statisticshide}>${questionText}</div>
             </div>
             <div class="half">
                 <img src="${cp}/resources/images/${imgName}" alt="Explanation image" class="image"> 

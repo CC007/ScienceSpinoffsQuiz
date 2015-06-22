@@ -7,7 +7,7 @@
         <answerC>SMS</answerC>
         <rightanswer>B</rightanswer>
         <explanation>We maken dagelijks gebruik van GPS, bijvoorbeeld met het navigatiesysteem in de auto, maar ook bij het versturen van een facebookberichtje, of het gebruik van Tinder. Naar mate een klok meer de snelheid van het licht benaderd, loopt hij steeds langzamer. Satellieten, waarop GPS is gebaseerd, bewegen dusdanig snel, dat de afwijking significant zou worden. Zonder rekening te houden met de relativiteitstheorie van Einstein zou er een afwijking van ongeveer 10km per dag ontstaan!</explanation>
-        <explanationimage>pluto-not-a-planet.png</explanationimage>
+        <explanationimage>1 Einstein.jpg</explanationimage>
     </question>
     <question id="2">
         <text>Welke ontwikkeling wordt gebaseerd op de gekko?</text>
@@ -16,7 +16,7 @@
         <answerC>Een grijpmechanisme om ruimteafval op te ruimen</answerC>
         <rightanswer>C</rightanswer>
         <explanation>Gekko’s zijn beroemd om hun vermogen ondersteboven aan gladde oppervlakten te kunnen hangen. Dit kunnen ze zelfs op glas! Dit kunnen ze door ontzettend kleine haartjes aan het pootjes, waardoor er op moleculair niveau een kracht ontstaat: de naar een Nederlandse fysicus vernoemde vanderwaalskracht.</explanation>
-        <explanationimage>pluto-not-a-planet.png</explanationimage>
+        <explanationimage>2 Gekko.jpg</explanationimage>
     </question>
     <question id="3">
         <text>Waarvoor werken deeltjesfysici samen met historici?</text>
@@ -25,7 +25,7 @@
         <answerC>Het opstellen van een geschiedenis van de deeltjesversneller</answerC>
         <rightanswer>A</rightanswer>
         <explanation>Een oude papyrusrol beschreven door Archimedes (287 v.Chr. – 212 v.Chr.) is in 1998 gekocht voor 2 miljoen dollar. Op een gegeven moment in de geschiedenis is deze rol opnieuw gebruikt door een monnik. Nu wordt de oorspronkelijke tekst teruggehaald met behulp van deeltjesfysica; de stralen zorgen ervoor dat het metaal in de inkt van Archimedes oplicht.</explanation>
-        <explanationimage>pluto-not-a-planet.png</explanationimage>
+        <explanationimage>3 Archimedes.jpg</explanationimage>
     </question>
     <question id="4">
         <text>Waar is het Internet uitgevonden?</text>
@@ -34,7 +34,7 @@
         <answerC>Het Amerikaanse leger</answerC>
         <rightanswer>B</rightanswer>
         <explanation>Vanwege de gigantische hoeveelheid data die gedeeld moet worden bij CERN, was het nodig iets nieuws te ontwikkelen. In 1989 ontwikkelde de Britse wetenschapper Tim Berners-Lee daarom het World Wide Web. Een paar jaar later, op Koninginnedag 1993, werd de techniek achter het Internet openbaar gemaakt.</explanation>
-        <explanationimage>pluto-not-a-planet.png</explanationimage>
+        <explanationimage>4 Tim Berners-Lee.jpg</explanationimage>
     </question>
     <question id="5">
         <text>Wat is NIET een toepassing voor de Oculus Rift (virtual reality-bril)?</text>
@@ -43,7 +43,7 @@
         <answerC>Een muziekinstrument leren bespelen</answerC>
         <rightanswer>C</rightanswer>
         <explanation>Het Amerikaanse bedrijf PsyTech heeft het Anxiety Management Virtual Reality Platform (AMVR) ontwikkeld, waarmee mensen geleidelijk aan behandeld kunnen worden voor diverse fobieën en angststoornissen, zoals pleinvrees, angst voor spinnen, hoogtevrees en claustrofobie.</explanation>
-        <explanationimage>pluto-not-a-planet.png</explanationimage>
+        <explanationimage>5 Oculus Rift.jpg</explanationimage>
     </question>
     <question id="6">
         <text>Welke van de volgende toepassingen is gebaseerd op een spin-off van het onderzoek in CERN?</text>
@@ -52,7 +52,7 @@
         <answerC>MRI-scanner</answerC>
         <rightanswer>C</rightanswer>
         <explanation>Een MRI-scanner is gebaseerd op het ‘omklappen’ van minuscule magneetjes, op atomair niveau. Deze ‘aangeslagen’ atomen vallen na een tijdje weer terug in hun grondtoestand, onder het uitzenden van een lichtdeeltje. Die kan opgevangen worden, waardoor bekeken kan worden hoe de interne structuur van ons lichaam is. Dit ‘omklappen’ van de atomen, gebeurt met behulp van extreem sterke magneten: de supergeleidende magneten. Het juiste type daarvan is ontwikkeld in CERN.</explanation>
-        <explanationimage>pluto-not-a-planet.png</explanationimage>
+        <explanationimage>6 MRI.jpg</explanationimage>
     </question>
     <question id="7">
         <text>Hier op de universiteit kan men Kunstmatige Intelligentie (KI) studeren. Wat is een veelgehoorde toepassing van de vindingen binnen dit veld?</text>
@@ -61,7 +61,7 @@
         <answerC>TomTom</answerC>
         <rightanswer>A</rightanswer>
         <explanation>Steeds vaker horen we erover in het nieuws. Onze Minister van Infrastructuur en Milieu, Mw. Schultz van Haegen, heeft al een aantal proefritjes achter de rug. Kunstmatige Intelligentie wordt vaak gedefinieerd als een zekere mate van probleemoplossend vermogen. Deze auto’s moeten natuurlijk beslissingen nemen: er snel voor langs, of toch nog even wachten? Links of rechts, rekeninghoudend met file-informatie? Maar nu heeft de bestuurder écht haast! Bij al deze beslissingen komt een vorm van kunstmatige intelligentie kijken, en zouden dus onmogelijk zijn zonder de doorbraken in dit veld.</explanation>
-        <explanationimage>pluto-not-a-planet.png</explanationimage>
+        <explanationimage>7 Schultz in auto.jpg</explanationimage>
     </question>
     <question id="8">
         <text>40 miljard cellen, gekweekt in een laboratorium in Maastricht, op basis van stamcelonderzoek:</text>
@@ -70,7 +70,7 @@
         <answerC>Een hamburger</answerC>
         <rightanswer>C</rightanswer>
         <explanation>Op 5 augustus 2013 is in Londen het eerste stukje vlees gebakken dat gekweekt is in een laboratorium. Het is gekweekt uit stamcellen van een koe, en het duurde drie maanden om ze op te kweken tot een stuk vlees. Reacties? "De bite van de hamburger lijkt enigszins op de textuur van vlees, al is het iets zachter" "Het vlees is wel minder sappig" "Er zit geen vet in. Je proeft zeker verschil met een gewone hamburger." Het ging dan ook om een zogenaamd ‘proof of concept’, waarbij de wetenschapper, de Nederlander Mark Post, wilde bewijzen dat het op termijn mogelijk is kunstmatig vlees te eten.</explanation>
-        <explanationimage>pluto-not-a-planet.png</explanationimage>
+        <explanationimage>8 Gekweekt vlees.jpg</explanationimage>
     </question>
     <question id="9">
         <text>Welk wetenschapsgebied heeft ook profijt van het onderzoek in CERN?</text>
@@ -79,7 +79,7 @@
         <answerC>Taalkunde</answerC>
         <rightanswer>A</rightanswer>
         <explanation>Een spin-offbedrijf van CERN is ADAM (Toepassingen van Detectoren en Versnellers op Geneeskunde). Dit bedrijf heeft samen met CERN de zogenaamde protonentherapie ontwikkeld, ofwel het bestralen van tumoren met protonen in plaats van met fotonen. Protonen zijn positief geladen deeltjes (partikels), die hun maximale dosis pas afgeven bij het bereiken van een bepaalde indringdiepte. Daarna komen de protonen tot stilstand en stopt de straling. Hierdoor ontstaat een soort stralingspiek, wat als voordeel heeft dat het weefsel rondom een tumor minder beschadigd raakt. Zoals het nu staat komen er vier van zulke ‘protonencentra’ in Nederland, waaronder in Groningen. Naar verwachting zijn ze in 2017 operabel.</explanation>
-        <explanationimage>pluto-not-a-planet.png</explanationimage>
+        <explanationimage>9 Protonentherapie.jpg</explanationimage>
     </question>
     <question id="10">
         <text>Welke bedrijfstak heeft nog meer profijt van het onderzoek in CERN?</text>
@@ -88,7 +88,7 @@
         <answerC>Energie- en waterleidingbedrijven</answerC>
         <rightanswer>B</rightanswer>
         <explanation>Er werkt een groot aantal informatici bij CERN, om de computersystemen te creëren en te onthouden die nodig zijn voor de verwerking van de grote hoeveelheden data die verzameld worden. Een programma dat is gemaakt om berekeningen te kunnen maken voor alles wat te maken heeft met het transport van deeltjes en de interactie met materie, is FLUKA. Deze weinig pakkende naam is tegenwoordig onmisbaar in de commerciële luchtvaart, omdat men met dit stuk software berekent hoeveel straling de passagiers en bemanning oplopen tijdens een vlucht.</explanation>
-        <explanationimage>pluto-not-a-planet.png</explanationimage>
+        <explanationimage>10 Verkeerstoren.jpg</explanationimage>
     </question>
     <question id="11">
         <text>Wat is de basis van wat het ‘wondermateriaal’ van de toekomst wordt genoemd?</text>
@@ -97,6 +97,6 @@
         <answerC>Speedo's</answerC>
         <rightanswer>A</rightanswer>
         <explanation>Grafeen wordt het nieuwe ‘wondermiddel’ genoemd. Het bestaat volledig uit koolstof, net als grafiet: de basis van een potlood. Grafeen is echter een laagje van één atoom dik, en blijkt allerlei bijzondere eigenschappen te hebben. Het produceren is nog lastig, maar in de toekomst kan het leiden tot efficiëntere zonnecellen, sneller Internet en betere oplaadbare batterijen. Aangezien het materiaal sterker is dan ijzer en slechts een atoom dik is, ligt een andere toepassing ook voor de hand: een verbeterd condoom.</explanation>
-        <explanationimage>pluto-not-a-planet.png</explanationimage>
+        <explanationimage>11 Grafeen.jpg</explanationimage>
     </question>
 </questions>
