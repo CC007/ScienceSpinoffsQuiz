@@ -74,6 +74,13 @@ public class RequestController {
         for (int i = 0; i < 11; i++) {
             map.put("question" + (i+1),questionStatistics.get(i));
         }
+		QuestionPool qp = new QuestionPool("questions_en.xml");
+		List<Question> questions = qp.getQuestions();
+		for (int i = 1; i <= questions.size(); i++) {
+			Question curr = questions.get(i);
+			map.put("questionname"+i, curr.getKeyword());
+			
+		}
         return "statistics";
     }
 

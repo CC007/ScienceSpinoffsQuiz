@@ -72,7 +72,8 @@ public class QuestionPool {
                             e.getElementsByTagName("answerC").item(0).getTextContent(),
                             rightAnswer,
                             e.getElementsByTagName("explanation").item(0).getTextContent(),
-                            e.getElementsByTagName("explanationimage").item(0).getTextContent());
+                            e.getElementsByTagName("explanationimage").item(0).getTextContent(),
+                            e.getElementsByTagName("keyword").item(0).getTextContent());
                     questions.add(q);
 
                 }

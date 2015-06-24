@@ -37,8 +37,9 @@ public class Question {
     private final Answer rightAnswer;
     private final String explanation;
     private final String explanationImage;
+	private final String keyword;
 
-    public Question(int id, String question, String answerA, String answerB, String answerC, Answer rightAnswer, String explanation, String explanationImage) {
+    public Question(int id, String question, String answerA, String answerB, String answerC, Answer rightAnswer, String explanation, String explanationImage, String keyword) {
         this.id = id;
         this.question = question;
         this.answerA = answerA;
@@ -47,6 +48,7 @@ public class Question {
         this.rightAnswer = rightAnswer;
         this.explanation = explanation;
         this.explanationImage = explanationImage;
+		this.keyword = keyword;
     }
 
     public int getId() {
@@ -80,4 +82,9 @@ public class Question {
     public String getExplanationImage(){
         return explanationImage;
     }
+
+	public String getKeyword() {
+		return keyword;
+	}
+	
 }

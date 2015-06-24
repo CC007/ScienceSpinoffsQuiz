@@ -11,7 +11,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Explanation</title>
-        <meta http-equiv="refresh" content="10;url=/ScienceSpinoffsQuiz/explanation" />
+        <meta http-equiv="refresh" content="10;url=/ScienceSpinoffsQuiz/statistics" />
         <link rel="stylesheet" type="text/css" href="${cp}/resources/css/statisticsstyle.css" />
         <script src="${cp}/resources/js/script.js"></script>
     </head>
@@ -190,37 +190,37 @@
                     </div>
                     <div class="flexbox hor">
                         <div class="barname">
-                            1
+                            ${questionname1}
                         </div>
                         <div class="barname">
-                            2
+                            ${questionname2}
                         </div>
                         <div class="barname">
-                            3
+                            ${questionname3}
                         </div>
                         <div class="barname">
-                            4
+                            ${questionname4}
                         </div>
                         <div class="barname">
-                            5
+                            ${questionname5}
                         </div>
                         <div class="barname">
-                            6
+                            ${questionname6}
                         </div>
                         <div class="barname">
-                            7
+                            ${questionname7}
                         </div>
                         <div class="barname">
-                            8
+                            ${questionname8}
                         </div>
                         <div class="barname">
-                            9
+                            ${questionname9}
                         </div>
                         <div class="barname">
-                            10
+                            ${questionname10}
                         </div>
                         <div class="barname">
-                            11
+                            ${questionname11}
                         </div>
                     </div>
                 </div>
