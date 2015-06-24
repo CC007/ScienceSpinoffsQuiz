@@ -19,13 +19,12 @@ import java.util.logging.Logger;
  *
  * @author Rik Schaaf aka CC007 <http://coolcat007.nl/>
  */
-public class DatabaseStorage implements GameStatisticsStorage {
+public class DatabaseStorage extends DatabaseConnection implements GameStatisticsStorage {
 
     private int userId;
     private String gender;
     private String ageGroup;
     private Map<Integer, Boolean> score;
-    private Connection c = null;
 
     public DatabaseStorage() {
         setNewUserId();
@@ -33,7 +32,6 @@ public class DatabaseStorage implements GameStatisticsStorage {
     }
 
     public DatabaseStorage(int userId) {
-        checkDB();
         if (checkUserId(userId)) {
             this.userId = userId;
         }
@@ -98,16 +96,6 @@ public class DatabaseStorage implements GameStatisticsStorage {
         return userId;
     }
 
-    private void startConnection() {
-        try {
-            Class.forName("org.sqlite.JDBC");
-            c = DriverManager.getConnection("jdbc:sqlite::resource:statistics.db");
-            System.out.println("Connection: " + c);
-        } catch (SQLException | ClassNotFoundException ex) {
-            Logger.getLogger(DatabaseStorage.class.getName()).log(Level.SEVERE, null, ex);
-        }
-    }
-
     private boolean checkUserId(int userId) {
         try {
             startConnection();
@@ -128,54 +116,9 @@ public class DatabaseStorage implements GameStatisticsStorage {
         return false;
     }
 
-    private void checkDB() {
-        try {
-            startConnection();
-            Statement stmt;
-            ResultSet rs;
-            boolean exists;
-            c.setAutoCommit(false);
-            stmt = c.createStatement();
-            rs = stmt.executeQuery("SELECT * FROM sqlite_master WHERE name='score' and type='table';");
-            exists = rs.next();
-            rs.close();
-            stmt.close();
-            if (!exists) {
-                stmt = c.createStatement();
-                String sql = "CREATE TABLE score "
-                        + "(userId             TEXT    NOT NULL, "
-                        + " questionId         TEXT    NOT NULL, "
-                        + " correctlyAnswered  INT     NOT NULL, "
-                        + " CONSTRAINT pk_userQuestion PRIMARY KEY (userId,questionId))";
-                stmt.executeUpdate(sql);
-                stmt.close();
-                c.commit();
-            }
-
-            stmt = c.createStatement();
-            rs = stmt.executeQuery("SELECT * FROM sqlite_master WHERE name='statistics' and type='table';");
-            exists = rs.next();
-            rs.close();
-            stmt.close();
-            if (!exists) {
-                stmt = c.createStatement();
-                String sql = "CREATE TABLE statistics "
-                        + "(userId      TEXT    PRIMARY KEY NOT NULL, "
-                        + " gender      INT                 NOT NULL, "
-                        + " ageGroup    INT                 NOT NULL)";
-                stmt.executeUpdate(sql);
-                stmt.close();
-                c.commit();
-            }
-            c.close();
-        } catch (SQLException ex) {
-            Logger.getLogger(DatabaseStorage.class.getName()).log(Level.SEVERE, null, ex);
-        }
-    }
 
     private void setNewUserId() {
         try {
-            checkDB();
             startConnection();
             Statement stmt;
             ResultSet rs;

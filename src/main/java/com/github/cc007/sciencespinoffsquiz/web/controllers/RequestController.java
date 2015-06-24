@@ -114,6 +114,7 @@ public class RequestController {
         System.out.println("Incoming request:");
         if("restart".equals(restart)){
             System.out.println(" Restart quiz");
+            map.put("quizredirect", "<meta http-equiv=\"refresh\" content=\"0;url=/ScienceSpinoffsQuiz/quiz\" />");
             return "index";
         }
         if (!"".equals(userId) && IntegerChecker.isInteger(userId)) {

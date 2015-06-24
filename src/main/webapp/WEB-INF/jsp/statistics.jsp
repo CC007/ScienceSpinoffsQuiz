@@ -10,8 +10,8 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Explanation</title>
-        <meta http-equiv="refresh" content="10;url=/ScienceSpinoffsQuiz/statistics" />
+        <title>Statistics</title>
+        <meta http-equiv="refresh" content="10;url=/ScienceSpinoffsQuiz/explanation" />
         <link rel="stylesheet" type="text/css" href="${cp}/resources/css/statisticsstyle.css" />
         <script src="${cp}/resources/js/script.js"></script>
     </head>
